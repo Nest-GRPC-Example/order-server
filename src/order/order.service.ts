@@ -50,7 +50,7 @@ export class OrderService implements OnModuleInit {
 
     const order: Order = new Order();
 
-    order.price = product.data.price;
+    order.price = product.data.price * data.quantity;
     order.productId = product.data.id;
     order.userId = data.userId;
 
