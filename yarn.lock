@@ -2666,7 +2666,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
 
 "grpc-nest-proto@git+https://github.com/Nest-GRPC-Example/nest-proto.git":
   version "1.0.0"
-  resolved "git+https://github.com/Nest-GRPC-Example/nest-proto.git#3a8b39913e75eca7ddfd360f7d401ade6e8ceeac"
+  resolved "git+https://github.com/Nest-GRPC-Example/nest-proto.git#3116696f5faeaab0fa677194002d73fbcc0f2462"
 
 has-flag@^3.0.0:
   version "3.0.0"
