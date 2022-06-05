@@ -15,10 +15,9 @@ ENV MSA_HOST=${MSA_HOST}
 ENV MSA_PORT=${MSA_PORT}
 
 RUN apk add --no-cache git
-RUN npm i -g yarn
 RUN yarn install
 RUN yarn build
 
-CMD ["yarn" "start"]
+CMD ["yarn", "start"]
 
 EXPOSE ${MSA_PORT}
